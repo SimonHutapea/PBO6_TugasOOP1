@@ -12,7 +12,7 @@ public class Payment {
     // Overloaded method: pembayaran tanpa diskon
     public void processPayment (String paymentMethod) {
         this.paymentMethod = paymentMethod;
-        this.paymentStatus = "Pembayaran Berhasil dengan " + paymentMethod;
+        this.paymentStatus = "Pembayaran Berhasil";
     }
 
     // Overloaded method: pembayaran dengan diskon

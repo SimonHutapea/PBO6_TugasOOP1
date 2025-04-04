@@ -20,7 +20,7 @@ public class Payment {
         this.paymentMethod = paymentMethod;
         double discountAmount = (discountPercent / 100) * totalPrice;
         totalPrice -= discountAmount;
-        this.paymentStatus = "Pembayaran Berhasil dengan " + paymentMethod;
+        this.paymentStatus = "Pembayaran Berhasil";
     }
 
     // Menampilkan detail pembayaran
